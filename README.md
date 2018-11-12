@@ -1,3 +1,3 @@
 # ProjectEuler
 
-Java solutions to Project Euler problems.
+Java solutions to [Project Euler](https://projecteuler.net) problems.

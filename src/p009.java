@@ -29,10 +29,9 @@ public class p009 {
 		//streamlined solution using Euclid's formula -- avg solution time: <1ms
 
 		int a, b, c;
-		int m = 2, n;
-
-		for (n = 1; n < m; n++) {
-			for (m = 2; m < 25; m++) {
+		int m , n;
+		for (m = 2; m < 25; m++) {
+			for (n = 1; n < m; n++) {
 				a = (m * m) - (n * n);
 				b = 2 * m * n;
 				c = (m * m) + (n * n);

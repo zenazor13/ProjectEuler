@@ -56,9 +56,6 @@ public class p011 {
 		};
 		int largest = 0;
 
-		System.out.println(grid[0][1]);
-		System.out.println(grid[1][0]);
-
 		//search vertically
 		for (int i = 0; i < 16; i++) { //y-values
 			for (int j = 0; j < 20; j++) { //x-values
